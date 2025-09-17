@@ -16,7 +16,7 @@ const authMiddleware = require('../Middleware/authMiddleware');
  * @swagger
  * /contact/{id}:
  *   get:
- *     tags: [Users]  
+ *     tags: [Contacts]  
  *     summary: Récupère tous les contacts d’un utilisateur
  *     description: Retourne la liste des contacts liés à l'utilisateur.
  *     parameters:
