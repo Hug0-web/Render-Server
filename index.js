@@ -36,9 +36,9 @@ app.get('/', (req, res) => {
 
 
 const username = process.env.MONGO_USERNAME;
-console.log(username);
+
 const password = process.env.MONGO_PASSWORD;
-console.log(password);
+
 
 
 const PDO = mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.jh9jfus.mongodb.net/MyContacts?retryWrites=true&w=majority&appName=Cluster0`).then(() => console.log("base de donnée connecté")).catch((e) => console.error(e));
